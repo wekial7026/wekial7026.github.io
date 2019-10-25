@@ -2,19 +2,47 @@
 <html>
   <head>
     <title> Unit 2</title>
-    <link rel="stylesheet" href="bruh.css">
+    <link rel="stylesheet" href="CSS/bruh.css">
     <meta charset="utf-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="JS/javascript.js">
+          <link rel="stylesheet" href="CSS/bruh.css">
   </head>
-  <body>
-    <h1>
-     This is my javascript
-    </h1>
-    <a href="index.html"><button>Back</button></a>
-    <button onclick="document.getElementById('myImage').src='darkmode.PNG'">Turn on dark mode</button>
+  <body class="background1">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">My Unit 1 Website</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="nav"><a href="index.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+            <li class="nav"><a href="#backtotop"><span class="glyphicon glyphicon-menu-up"></span>The Top</a></li>
 
-    <img id="myImage" src="darkmode.PNG" style="width:1000px">
+            <li class="nav"><a href="unit1.html">Unit1</a></li>
+        </ul>
+      </div>
+    </nav>
+    <br><br><br><br><br><br>
+    <div class="jumbotron">
+      <h1>Unit 2</h1>
+      <p> Javascript code</p>
+    </div>
+    <br>
+    <br>
+    <div>
+          <button onclick="document.getElementById('myImage').src='IMG/darkmode.png'">Turn on dark mode</button>
 
-   <button onclick="document.getElementById('myImage').src='greymode.PNG'">Turn on grey mode</button>
+          <img id="myImage" src="IMG/darkmode.png" style="width:1000px">
+
+         <button onclick="document.getElementById('myImage').src='IMG/greymode.png'">Turn on grey mode</button>
+    </div>
   </body>
+
+
+
+
+
 </html>
