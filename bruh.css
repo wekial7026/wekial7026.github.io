@@ -89,3 +89,10 @@ img.centerimg{
   margin-left: auto;
   margin-right: auto;
 }
+.clock {
+  color:white;
+  background-color:black;
+  position:inherit;
+  text-align:center;
+  
+}
