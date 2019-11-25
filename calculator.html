@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="CSS/calculator.css">
+    <link rel="stylesheet" href="JS/calculator.js">
+    <title>Calculator</title>
+
+  </head>
+  <body class="marooncolor">
+    <div class="container w3-panel w3-border w3-round-xlarge bckgrnd">
+      <div class="cntr">
+        <h1>Tip Calculator</h1>
+      </div>
+      <div>
+        <form>
+          <p><b>How much was your bill?</b></p><br>
+          <p class="big">$<input type="text" name="price" placeholder="Bill Amount" value="money" id="money"></p>
+          <br>
+          <p><b>How was your service</b></p>
+          <br>
+          <select class="sz" id="percentage">
+            <option disabled selected >--Choose an Option--</option>
+            <option value="1%"> 1% Sufficient</option>
+            <option value="5%">5% Good</option>
+            <option value="10%">10% Great</option>
+            <option value="15%"> 15% Grand</option>
+            <option value="20%">20% Wonderful</option>
+          </select>
+          <br><br>
+          <p><b>How many people are sharing the bill?</b></p><br>
+
+          <p><input type=text name="people" value="" placeholder="Number of People" id="people"><b>People</b></p>
+          </form>
+      </div>
+      <br><br>
+      <div class="btncalc" id="calc">
+        <button class="redclr">CALCULATE!</button>
+      </div>
+    </div>
+  </body>
+
+</html>
