@@ -1,0 +1,43 @@
+body.marooncolor {
+  background-color:#660000
+}
+p {
+  color:black;
+  font-family: Serif;
+}
+div.bckgrnd {
+  background-color:white;
+  width:20%;
+
+}
+input.big{
+  font-size:30px;
+}
+.redclr{
+  background-color:#b0002e;
+  color:white;
+  font-size:25px;
+  border-radius: 4px;
+  font-family: Serif;
+}
+div.btncalc{
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 40px;
+
+}
+.cntr{
+  text-align: center;
+  background-color:#310000;
+  color:white;
+  border-radius: 10px;
+  font-family: Serif;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius:0px;
+}
+.sz{
+  font-size:30px;
+  border-radius: 7px;
+  font-family: Serif;
+}
